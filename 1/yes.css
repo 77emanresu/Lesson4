@@ -1,0 +1,12 @@
+.container{position: absolute;
+    display:flex;
+height:100%;
+width:100%;}
+.block{background-color:yellow;
+    flex-direction: row;
+    flex-basis:100px;
+    height:100px;
+    }
+.one, .five{align-self: flex-end;}
+.two, .four{ align-self: center;}
+.three{align-self: flex-start;}

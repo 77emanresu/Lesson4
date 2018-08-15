@@ -1,0 +1,26 @@
+.container{position: absolute;
+    display:flex;
+    width:80%;
+    flex-direction: column;
+    }
+.tesco{position:relative;
+    height:100%;
+    display: flex;}
+
+.block{background-color: yellow;
+    flex-basis: 11%;height:100px;
+    margin:10px;
+    justify-content:space-around;
+    align-items: center;
+    outline:1px solid black;}
+
+.green{background-color:green;
+outline:1px solid black;}
+
+.two{position:absolute;
+    margin:0 10px;
+    width:98.5%;
+    height:100px;
+    }
+
+.eight{flex-basis: 16%;}

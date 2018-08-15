@@ -1,0 +1,13 @@
+.container{position:absolute;
+    width:50%;
+    height:60%;
+    outline:black solid 1px;
+    display: flex;
+    flex-wrap: wrap;}
+.blue{margin:10px;
+    width:25%;
+    height:35%;
+    background-color:blue;
+}
+.sec{align-self: baseline;
+    height:50%;}
